@@ -1,12 +1,14 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
 package com.tobiasnapal.practicavectores;
-
-import java.util.Scanner;
 
 /**
  *
  * @author Tobias Napal
  */
-public class PracticaVectores {
+public class Vector3 {
     public static void main(String args[]) {
         int[] dni = {23765786, 94812038, 43654976};
         String[] nombre = {"Juan", "Marcos", "Alexis"};
@@ -15,5 +17,4 @@ public class PracticaVectores {
             System.out.println("Posición " + i + ": " + dni[i] + " " + nombre[i] + " " + apellido[i]);
         }
     }
-}
 }
